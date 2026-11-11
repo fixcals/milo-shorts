@@ -37,5 +37,10 @@ code, a { overflow-wrap: anywhere; }
 
 nav { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; }
 
+.badge {
+  display: inline-block; margin: 0 0 12px; padding: 4px 12px; border-radius: 999px;
+  background: #FF0033; color: #FFFFFF; font-size: 13px; font-weight: 700; letter-spacing: 0.2px;
+}
+
 .lang { font-size: 14px; color: var(--muted); }
 hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
